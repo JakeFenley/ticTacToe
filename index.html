@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1 class="display-1 text-center">Tic-Tac-Toe</h1>
+      <h5 class="display-5 text-center"><span id="player1-span"></span> <span id="score-seperator"></span><span id="player2-span"></span> </h3>
+    </div>
+
+    <div class="container">
+      <div id="game-container">
+        <div class="row">
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="player-form-container">
+          <div class="form-row justify-content-center" id="player-form">
+            <div class="auto" style="margin-right:2px;">
+              <label class="sr-only" for="form-name">Name</label>
+              <input type="text" class="form-control mb-2" id="name" placeholder="Player Name">
+            </div>
+            <div class="auto" style="margin-right:2px;">
+              <label class="sr-only" for="form-marker">Piece</label>
+              <select class="custom-select mr-sm-2" id="marker">
+                <option selected>Marker</option>
+                <option value="x">X</option>
+                <option value="o">O</option>
+              </select>
+            </div>
+            <div class="auto">
+              <button type ="button" class="btn btn-primary" id="cta-player-info">Start Game</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center" id="cta-new-game">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

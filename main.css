@@ -1,0 +1,56 @@
+body {
+  font-family: 'Acme', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    height:100vh;
+    background: rgb(230, 230, 230);
+    background: linear-gradient(141deg, rgb(230, 230, 230) 1%, rgb(209, 209, 209) 60%);
+  }
+  
+  .content{
+    margin:30px auto;
+    padding: 12px;
+  }
+
+  .tic-box-left {
+    border-left:none !important;
+  }
+
+  .tic-box-right {
+    border-right:none !important;
+  }
+
+  .tic-box-top {
+    border-top:none !important;
+  }
+
+  .tic-box-bottom {
+    border-bottom:none !important;
+  }
+  
+  .tic-box{
+    border: solid rgb(33, 33, 34) 1px;
+    border-radius: 1px;
+    font-size: 84px;
+    text-align: center;
+    color: rgb(41, 41, 41);
+    height:1.8em;
+    padding:4px;
+  }
+  .tic-box:hover{
+    background: rgb(155, 155, 155);
+    background: linear-gradient(294deg, rgb(156, 156, 156) 0%, rgb(165, 165, 165) 100%);
+  }
+
+  @media all and (max-width:1000px) {
+    .display-1, .tic-box {
+          font-size:62px;
+      }
+  }
+
+  @media all and (max-width:772px) {
+    .display-1, .tic-box {
+        font-size:50px;
+    }
+}
